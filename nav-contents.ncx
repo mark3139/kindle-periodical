@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns:mbp="http://mobipocket.com/ns/mbp" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en-GB">
+  <head>
+    <meta content="Template" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>ncx:Title</text>
+  </docTitle>
+  <docAuthor>
+    <text>ncs:Author</text>
+  </docAuthor>
+  <navMap>
+    <navPoint playOrder="0" class="periodical" id="periodical">
+      <mbp:meta-img src="masthead.gif" name="mastheadImage"/>
+      <navLabel>
+        <text>Table of Contents</text>
+      </navLabel>
+      <content src="contents.html"/>
+      <navPoint playOrder="1" class="section" id="Main-section">
+        <navLabel>
+          <text>Section 1</text>
+        </navLabel>
+        <content src="001.html"/>
+        <navPoint playOrder="2" class="article" id="item-001">
+          <navLabel>
+            <text>article 1 text</text>
+          </navLabel>
+          <content src="001.html"/>
+          <mbp:meta name="description">article 1 des</mbp:meta>
+          <mbp:meta name="author">article 1 author</mbp:meta>
+        </navPoint>
+        <navPoint playOrder="3" class="article" id="item-002">
+          <navLabel>
+            <text>article 2 text</text>
+          </navLabel>
+          <content src="002.html"/>
+          <mbp:meta name="description">article 2 des</mbp:meta>
+          <mbp:meta name="author">article 2 author</mbp:meta>
+        </navPoint>
+        <navPoint playOrder="4" class="article" id="item-003">
+          <navLabel>
+            <text>article 3</text>
+          </navLabel>
+          <content src="003.html"/>
+          <mbp:meta name="description">article 3 des</mbp:meta>
+          <mbp:meta name="author">article author</mbp:meta>
+        </navPoint>
+	  </navPoint>
+      <navPoint playOrder="95" class="section" id="G2">
+        <navLabel>
+          <text>Section 2</text>
+        </navLabel>
+        <content src="094.html"/>
+        <navPoint playOrder="94" class="article" id="item-094">
+          <navLabel>
+            <text>article 94 text</text>
+          </navLabel>
+          <content src="094.html"/>
+          <mbp:meta name="description">article 96 des</mbp:meta>
+          <mbp:meta name="author">article 96 author</mbp:meta>
+        </navPoint>
+        <navPoint playOrder="95" class="article" id="item-095">
+          <navLabel>
+            <text>article 95 text</text>
+          </navLabel>
+          <content src="095.html"/>
+          <mbp:meta name="description">article 95 des</mbp:meta>
+          <mbp:meta name="author">article 95 author</mbp:meta>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

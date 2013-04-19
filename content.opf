@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="Guardian_2010-10-15">
+  <metadata>
+    <dc-metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:title>Title</dc:title>
+      <dc:language>en-gb</dc:language>
+      <meta content="cover-image" name="cover"/>
+      <dc:creator>Creator</dc:creator>
+      <dc:publisher>Publisher</dc:publisher>
+      <dc:subject>News</dc:subject>
+      <dc:date>2013-04-19</dc:date>
+      <dc:description>description</dc:description>
+    </dc-metadata>
+    <x-metadata>
+      <output content-type="application/x-mobipocket-subscription-magazine" encoding="utf-8"/>
+    </x-metadata>
+  </metadata>
+  <manifest>
+    <item href="001-thumb.jpg" media-type="image/jpeg" id="001-thumb"/>
+    <item href="001.html" media-type="application/xhtml+xml" id="001"/>
+    <item href="002.html" media-type="application/xhtml+xml" id="002"/>
+    <item href="003.html" media-type="application/xhtml+xml" id="003"/>
+    <item href="094.html" media-type="application/xhtml+xml" id="094"/>
+    <item href="095.html" media-type="application/xhtml+xml" id="095"/>
+    <item href="contents.html" media-type="application/xhtml+xml" id="contents"/>
+    <item href="nav-contents.ncx" media-type="application/x-dtbncx+xml" id="nav-contents"/>
+    <item href="cover-image.gif" media-type="image/gif" id="cover-image"/>
+    <item href="masthead.gif" media-type="image/gif" id="masthead"/>
+  </manifest>
+  <spine toc="nav-contents">
+    <itemref idref="contents"/>
+    <itemref idref="001"/>
+    <itemref idref="002"/>
+    <itemref idref="003"/>
+    <itemref idref="094"/>
+    <itemref idref="095"/>
+  </spine>
+  <guide>
+    <reference href="contents.html" type="toc" title="Table of Contents"/>
+  </guide>
+</package>
